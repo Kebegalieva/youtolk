@@ -1,0 +1,277 @@
+.container {
+  display: flex;
+  width: 1170px;
+  height: 86px;
+  margin: 0 auto;
+}
+header a {
+  color: black;
+}
+.wrapper {
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+}
+header {
+  font-family: Montserrat;
+}
+
+main {
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: Montserrat;
+}
+
+.menu {display: flex;
+}
+.menu li a {
+  text-decoration: none;
+  font-size: 14px;
+}
+.menu li {
+  margin-right: 40px;
+}
+.link {
+  font-size: 17px;
+  margin-left: auto;
+  color: #03B2A5;
+  font: "Montserrat";
+  line-height: 19.5px;
+  size: 17px;
+  background-color: #E3F5F5;
+  transition: all 0.5s ease;
+}
+.link:hover {
+  background: #fff;
+  color: #000;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+h1 {
+  height: 56px;
+  width: 552px;
+  overflow-x: 120px;
+  overflow-y: 140px;
+}
+button {
+  border-radius: 24px; 
+  border-color: darkgray;
+}
+.container_button {
+  width: 1181px;
+  height: 32px;
+  top: 228px;
+  left: 120px;
+  gap: 8px;
+}
+body {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+hr {
+  color: gray;
+}
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+}
+article.subject {
+  border-radius: 16px;
+  background: #ffffff;
+  border: 1px solid #dedede;
+  width: 586px;
+  height: 500px;
+  margin-top: 23px;
+}
+article.usual {
+  border-radius: 16px;
+  background: #ffffff;
+  border: 1px solid #dedede;
+  width: 382px;
+  height: 476px;
+  margin-top: 23px;
+}
+.image {
+  height: 260px;
+  width: 586px;
+  overflow: hidden;
+  border-radius: 16px 16px 0 0;
+}
+.image img {
+  width: 100.5%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+.usual__image {
+  width: 382px;
+  height: 260px;
+  overflow: hidden;
+  border-radius: 16px 16px 0 0;
+}
+.usual__image img {
+  height: 260px;
+  width: 382px;
+}
+.usual section {
+  padding: 16px;
+}
+.usual time {
+  top: 226px;
+}
+h2 {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700px;
+  font-size: 18px;
+  line-height: 26px;
+  color: black;
+}
+a {
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+  }
+.autor {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+  color: #494949;
+  margin-top: 4px;
+}
+.content {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #333333;
+  margin-top: 8px;
+}
+section {
+  position: relative;
+  box-sizing: border-box;
+}
+.subject time {
+  position: absolute;
+  top: 206px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+  color: #868686;
+}
+.usual time {
+  position: absolute;
+  top: 206px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+  color: #868686;
+}
+.marking {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 8px;
+}
+.mark {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  padding: 6px 8px;
+  gap: 4px;
+  margin-bottom: 8px;
+
+  max-height: 32px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid #c1c5cd;
+  border-radius: 24px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+}
+.mark img {
+  margin-right: 4px;
+}
+.main_button {
+  height: 48px;
+  width: 182px;
+  background: #35b3a9;
+  border-radius: 4px;
+  margin: 56px 500px 96px; 
+  border-width: 0;
+  cursor: pointer;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  transition: 0.1s;
+  text-align: center;
+}
+footer {
+  background: #2963a3;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column {
+      width: 100%;
+  }
+}
+.letter {
+  color: white;
+}
+.wrapper {
+  display: grid;
+  grid-template-areas:
+  "a a b b c c d d";
+}
+.box1 {
+  grid-area: a;
+}
+.box2 {
+  grid-area: b;
+}
+.box3 {
+  grid-area: c;
+}
+.box4 {
+  grid-area: d;
+} 
+
+.input {
+  width: 384px;
+  height: 48px;
+  border-radius: 4px 1px;
+}
+
+

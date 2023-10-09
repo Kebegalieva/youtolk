@@ -1,0 +1,7 @@
+html {
+    --container: 300px;
+    --padding-container: 20px;
+    box-sizing: border-box;
+    position: relative;
+    overflow-x: hidden;
+}
